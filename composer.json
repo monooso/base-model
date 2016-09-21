@@ -1,0 +1,25 @@
+{
+    "name": "monooso/base-model",
+    "description": "The world's simplest base model, with support for custom getters and setters.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Lewis",
+            "email": "stephen@experiencehq.net"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Monooso\\BaseModel\\": "src/Monooso/BaseModel"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Monooso\\BaseModel\\": "tests/Monooso/BaseModel"
+        }
+    }
+}
