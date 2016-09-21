@@ -1,4 +1,4 @@
-# Base Model #
+# Base Model [![Build Status](https://travis-ci.org/monooso/base-model.svg?branch=master)](https://travis-ci.org/monooso/base-model)
 The world's simplest base model, with support for custom getters and setters.
 
 ## Installation ##
